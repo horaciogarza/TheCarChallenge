@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E7BB598621C40EF68773FC8E7A4937 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F191BCFB5D357DAB66B147BC506CA21 /* GLKit.framework */; };
+		066AEF6A1B987399C90F7B3AF53579F5 /* KVNProgressConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 462F7EEEDCBEEA77A59C370B6CD64629 /* KVNProgressConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE9D85E3C609CF07EE82AD2AAC58BAD /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1F236A3625BBFAAE78C1D5B6CBD1A /* KVNProgressConfiguration.m */; };
+		116D3767A78FC0657E88B4CEDA4C3299 /* UIImage+KVNEmpty.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F6F92C35B8072784B60D37491213AD /* UIImage+KVNEmpty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198B1FDE0BD891482C56FB16F612EBAC /* Pods-TheCarsChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A452667ECAACFA35AA412BC3D67A537E /* Pods-TheCarsChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706DD00E534236F25B5E1368B594BCC3 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C0438C4C7774069EB5D0FB0BBFED42 /* UIImage+KVNEmpty.m */; };
+		82E64159AFF200F6024944614B5E168C /* KVNProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F70FA0BD24D8C9A044440AC432761C2D /* KVNProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A883ED11AF49DA9CF33748A18A461EA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC16880C32CD845EDDD0B2A567E787E /* QuartzCore.framework */; };
+		ABF2B055A55B65795E721D4A77BB8D01 /* KVNProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3846E8A657A71A8637B961DFC09DC6AA /* KVNProgress-dummy.m */; };
+		B0A973C6184C25929F3C56F78BC651E4 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = B50E41D24972194666405AAEAA9F6870 /* UIColor+KVNContrast.m */; };
+		B1254435617D9449D932F7EBE6325EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ECFE76238F870C81C6582194FCE223 /* Foundation.framework */; };
+		B477BDCD9B1D06725C07B4448903D7F3 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 90724F8E62B494761CFE05278C09AB0B /* UIImage+KVNImageEffects.m */; };
+		B4D2F151FF2C49434ACD896664088769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8ECFE76238F870C81C6582194FCE223 /* Foundation.framework */; };
+		B7AFD9C143865892B89249A5C69CD5B3 /* UIImage+KVNImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = E659D496197B694FAF338A4EAACB7AE6 /* UIImage+KVNImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD18BDED1CC9AD4AA4050786288C8D8C /* KVNProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = CB375F57ADA77F8C407378D2B7D9239F /* KVNProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE81C87BE66A0443B20EDA83A66BB3D4 /* UIColor+KVNContrast.h in Headers */ = {isa = PBXBuildFile; fileRef = D8742FC86F0C00D820AEFE50B84D1AE2 /* UIColor+KVNContrast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4E977BCE4ED1AF24E7E122FC462E42B /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 229A82B4427337168B4FB4B225BF8594 /* KVNProgress.m */; };
+		DADFF878CB7140130210C8DB8197E291 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B1AEF6BBAC9178CB10B4EB9270FF9E /* KVNProgressView.xib */; };
+		DFF36C2C6949A6D0866ACC4680922BA0 /* Pods-TheCarsChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59542B31C9D3BC8D9EACE78C32FCFCF9 /* Pods-TheCarsChallenge-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD80F97EA2F369E03503402C699F5321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0186EE20AB4D310515B8041966DB7AEB;
+			remoteInfo = KVNProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FEFE16C4FBB2873B541CEE257ECFF5 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		123B4CB25F69EC1E3481EAF99E5ECF53 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		174F4D75A7BBE6782AAF8F2EA4AA0B4E /* Pods-TheCarsChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TheCarsChallenge.modulemap"; sourceTree = "<group>"; };
+		229A82B4427337168B4FB4B225BF8594 /* KVNProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgress.m; path = KVNProgress/Classes/KVNProgress.m; sourceTree = "<group>"; };
+		246001389114A149D410E668639B28C0 /* Pods-TheCarsChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheCarsChallenge-frameworks.sh"; sourceTree = "<group>"; };
+		2CD1F236A3625BBFAAE78C1D5B6CBD1A /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KVNProgressConfiguration.m; path = KVNProgress/Classes/KVNProgressConfiguration.m; sourceTree = "<group>"; };
+		3846E8A657A71A8637B961DFC09DC6AA /* KVNProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVNProgress-dummy.m"; sourceTree = "<group>"; };
+		39FE8ACF376209D8AC228021F4AB4C34 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		3B9C1E6DFD5D132B076FC6203D9F2E3B /* Pods-TheCarsChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheCarsChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		456B925AD3FD363CC43290D6C5CC3E4B /* KVNProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVNProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462F7EEEDCBEEA77A59C370B6CD64629 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgressConfiguration.h; path = KVNProgress/Classes/KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		493914D1B817B969FA66C655DDA98164 /* Pods-TheCarsChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheCarsChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BFB16E1475B8A9962211E0EFF0AE231 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		4DAB3B943B47437C1415AF2937915626 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		59542B31C9D3BC8D9EACE78C32FCFCF9 /* Pods-TheCarsChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheCarsChallenge-dummy.m"; sourceTree = "<group>"; };
+		5EE6E6FF546888221B59586B5745A8AF /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		601F3CEC281B283DA854FAB5152B3D15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC16880C32CD845EDDD0B2A567E787E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6AE04ECCEA3F7E2CA72138B1FF7C8B38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F191BCFB5D357DAB66B147BC506CA21 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		734C1684FFB3F33746C4CC458F6D36CA /* KVNProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-prefix.pch"; sourceTree = "<group>"; };
+		8A56D63FEC19E6470330006EBD8483C2 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		8B1504E1FC750A80A4CE153B29AC85B8 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		90724F8E62B494761CFE05278C09AB0B /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNImageEffects.m"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
+		916411450102E7CCB9A05626A9F01C21 /* KVNProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KVNProgress.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4114BDE6FA8DE2E75F03720DD50B92A /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		A452667ECAACFA35AA412BC3D67A537E /* Pods-TheCarsChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheCarsChallenge-umbrella.h"; sourceTree = "<group>"; };
+		B0C0438C4C7774069EB5D0FB0BBFED42 /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KVNEmpty.m"; path = "KVNProgress/Categories/UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		B50E41D24972194666405AAEAA9F6870 /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KVNContrast.m"; path = "KVNProgress/Categories/UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		B852272757DC4EF238AB60E0115753F0 /* KVNProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVNProgress.xcconfig; sourceTree = "<group>"; };
+		B8F665763643B09899E45711761F6A69 /* Pods-TheCarsChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TheCarsChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB375F57ADA77F8C407378D2B7D9239F /* KVNProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVNProgress.h; path = KVNProgress/Classes/KVNProgress.h; sourceTree = "<group>"; };
+		CC2FD7C78A14007636A3CA7F326943BE /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		D8742FC86F0C00D820AEFE50B84D1AE2 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+KVNContrast.h"; path = "KVNProgress/Categories/UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		D8ECFE76238F870C81C6582194FCE223 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBE596A2E9883C4312F0433D1348F3DE /* Pods-TheCarsChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheCarsChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE16ED02157CA276A0F6A1F20FBA673 /* Pods_TheCarsChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCarsChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E659D496197B694FAF338A4EAACB7AE6 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNImageEffects.h"; path = "KVNProgress/Categories/UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		E8B1AEF6BBAC9178CB10B4EB9270FF9E /* KVNProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVNProgressView.xib; path = KVNProgress/Resources/KVNProgressView.xib; sourceTree = "<group>"; };
+		F0F6F92C35B8072784B60D37491213AD /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KVNEmpty.h"; path = "KVNProgress/Categories/UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		F6DFF0B78030D1B0109C375AD8028469 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		F70FA0BD24D8C9A044440AC432761C2D /* KVNProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVNProgress-umbrella.h"; sourceTree = "<group>"; };
+		FD5C5AD105480DB7439BAFCF81EC91E9 /* Pods-TheCarsChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TheCarsChallenge-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD135852F937D8ABDCC8EBFB524843C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1254435617D9449D932F7EBE6325EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0D097C530FB413E08EAE35FB17EB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D2F151FF2C49434ACD896664088769 /* Foundation.framework in Frameworks */,
+				00E7BB598621C40EF68773FC8E7A4937 /* GLKit.framework in Frameworks */,
+				A883ED11AF49DA9CF33748A18A461EA7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356CAE8572C7C75FCB05E984CEB70677 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1684EB62FD4C0A796C611B3BECB7BA92 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				FCB86A4947BEDB49B97C659A45CF790E /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		2C4C9A1BE3634C3BC63AD81D8F3A5C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123B4CB25F69EC1E3481EAF99E5ECF53 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EB588A54F22D069C3AB3A5DB2F608E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FD7C78A14007636A3CA7F326943BE /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		356CAE8572C7C75FCB05E984CEB70677 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8ECFE76238F870C81C6582194FCE223 /* Foundation.framework */,
+				6F191BCFB5D357DAB66B147BC506CA21 /* GLKit.framework */,
+				6AC16880C32CD845EDDD0B2A567E787E /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		36241272E5769206DAC11349A8D71A3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				601F3CEC281B283DA854FAB5152B3D15 /* Info.plist */,
+				916411450102E7CCB9A05626A9F01C21 /* KVNProgress.modulemap */,
+				B852272757DC4EF238AB60E0115753F0 /* KVNProgress.xcconfig */,
+				3846E8A657A71A8637B961DFC09DC6AA /* KVNProgress-dummy.m */,
+				734C1684FFB3F33746C4CC458F6D36CA /* KVNProgress-prefix.pch */,
+				F70FA0BD24D8C9A044440AC432761C2D /* KVNProgress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVNProgress";
+			sourceTree = "<group>";
+		};
+		3C7B5F94018896B9DCFA7E8E929A38F3 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				CEEE93815C732449F6BBD4EE307A163E /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		3E63315676F78DE7C2ED113FF1BDD64B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				9BB87474D0031259D25DE1BFD73862AD /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		47220B735D29BD104360ED3BC5B7ADE0 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A69DFBFE360DC8C1E71D079C79A25893 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		534A647A3ADD8F2258C6F3A27ED74597 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				CB375F57ADA77F8C407378D2B7D9239F /* KVNProgress.h */,
+				229A82B4427337168B4FB4B225BF8594 /* KVNProgress.m */,
+				462F7EEEDCBEEA77A59C370B6CD64629 /* KVNProgressConfiguration.h */,
+				2CD1F236A3625BBFAAE78C1D5B6CBD1A /* KVNProgressConfiguration.m */,
+				D8742FC86F0C00D820AEFE50B84D1AE2 /* UIColor+KVNContrast.h */,
+				B50E41D24972194666405AAEAA9F6870 /* UIColor+KVNContrast.m */,
+				F0F6F92C35B8072784B60D37491213AD /* UIImage+KVNEmpty.h */,
+				B0C0438C4C7774069EB5D0FB0BBFED42 /* UIImage+KVNEmpty.m */,
+				E659D496197B694FAF338A4EAACB7AE6 /* UIImage+KVNImageEffects.h */,
+				90724F8E62B494761CFE05278C09AB0B /* UIImage+KVNImageEffects.m */,
+				CF6AAD148AEED030E3EF085C19C4FAF9 /* Resources */,
+				36241272E5769206DAC11349A8D71A3A /* Support Files */,
+			);
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		5E4DC53654447456C6C44FEA1296F5EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456B925AD3FD363CC43290D6C5CC3E4B /* KVNProgress.framework */,
+				DEE16ED02157CA276A0F6A1F20FBA673 /* Pods_TheCarsChallenge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C309C09348165A04E6CA088EE495D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F36CDD809B675BD6038D41B98A9A6 /* Pods-TheCarsChallenge */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6598E9F7E8103739362D00C85FAE999A /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B78953F0FA1642BA909776DC2A14C9D /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				873D0478159D6D9104D7C3666B5C7073 /* Pods */,
+				5E4DC53654447456C6C44FEA1296F5EB /* Products */,
+				63C309C09348165A04E6CA088EE495D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		873D0478159D6D9104D7C3666B5C7073 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47220B735D29BD104360ED3BC5B7ADE0 /* Firebase */,
+				F986212EE735F807A7C4CA3501BC9CDC /* FirebaseAnalytics */,
+				1684EB62FD4C0A796C611B3BECB7BA92 /* FirebaseAuth */,
+				3C7B5F94018896B9DCFA7E8E929A38F3 /* FirebaseDatabase */,
+				88EDA851BA8D8858BC258B9A8984B40F /* FirebaseInstanceID */,
+				D819709E7676CEC0A23E77ABA25BABFF /* GoogleInterchangeUtilities */,
+				D304696CA18B4F6A551FC5CBFDAA1E46 /* GoogleNetworkingUtilities */,
+				6598E9F7E8103739362D00C85FAE999A /* GoogleParsingUtilities */,
+				B7F1A6A7179742C9AD8E5AFDBA652858 /* GoogleSymbolUtilities */,
+				3E63315676F78DE7C2ED113FF1BDD64B /* GoogleUtilities */,
+				534A647A3ADD8F2258C6F3A27ED74597 /* KVNProgress */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88EDA851BA8D8858BC258B9A8984B40F /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F6DFF0B78030D1B0109C375AD8028469 /* FIRInstanceID.h */,
+				98C3C0D791CEF82ECC0B2B8865DD10CC /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		8B78953F0FA1642BA909776DC2A14C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BFB16E1475B8A9962211E0EFF0AE231 /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C3C0D791CEF82ECC0B2B8865DD10CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39FE8ACF376209D8AC228021F4AB4C34 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BB87474D0031259D25DE1BFD73862AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EE6E6FF546888221B59586B5745A8AF /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69DFBFE360DC8C1E71D079C79A25893 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				A4114BDE6FA8DE2E75F03720DD50B92A /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		B7F1A6A7179742C9AD8E5AFDBA652858 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9220CAEE89C19DDB69A1B7D4A8263 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BE8A3FB945D3B52F0CB2DA1BDC767B7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1504E1FC750A80A4CE153B29AC85B8 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E9220CAEE89C19DDB69A1B7D4A8263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A56D63FEC19E6470330006EBD8483C2 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEE93815C732449F6BBD4EE307A163E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FEFE16C4FBB2873B541CEE257ECFF5 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF6AAD148AEED030E3EF085C19C4FAF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B1AEF6BBAC9178CB10B4EB9270FF9E /* KVNProgressView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D304696CA18B4F6A551FC5CBFDAA1E46 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE8A3FB945D3B52F0CB2DA1BDC767B7C /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		D819709E7676CEC0A23E77ABA25BABFF /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C9A1BE3634C3BC63AD81D8F3A5C7E /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		F986212EE735F807A7C4CA3501BC9CDC /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				2EB588A54F22D069C3AB3A5DB2F608E0 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		FB1F36CDD809B675BD6038D41B98A9A6 /* Pods-TheCarsChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				6AE04ECCEA3F7E2CA72138B1FF7C8B38 /* Info.plist */,
+				174F4D75A7BBE6782AAF8F2EA4AA0B4E /* Pods-TheCarsChallenge.modulemap */,
+				B8F665763643B09899E45711761F6A69 /* Pods-TheCarsChallenge-acknowledgements.markdown */,
+				493914D1B817B969FA66C655DDA98164 /* Pods-TheCarsChallenge-acknowledgements.plist */,
+				59542B31C9D3BC8D9EACE78C32FCFCF9 /* Pods-TheCarsChallenge-dummy.m */,
+				246001389114A149D410E668639B28C0 /* Pods-TheCarsChallenge-frameworks.sh */,
+				FD5C5AD105480DB7439BAFCF81EC91E9 /* Pods-TheCarsChallenge-resources.sh */,
+				A452667ECAACFA35AA412BC3D67A537E /* Pods-TheCarsChallenge-umbrella.h */,
+				DBE596A2E9883C4312F0433D1348F3DE /* Pods-TheCarsChallenge.debug.xcconfig */,
+				3B9C1E6DFD5D132B076FC6203D9F2E3B /* Pods-TheCarsChallenge.release.xcconfig */,
+			);
+			name = "Pods-TheCarsChallenge";
+			path = "Target Support Files/Pods-TheCarsChallenge";
+			sourceTree = "<group>";
+		};
+		FCB86A4947BEDB49B97C659A45CF790E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DAB3B943B47437C1415AF2937915626 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4828028C649B1D9F79426CC4AADF777D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E64159AFF200F6024944614B5E168C /* KVNProgress-umbrella.h in Headers */,
+				BD18BDED1CC9AD4AA4050786288C8D8C /* KVNProgress.h in Headers */,
+				066AEF6A1B987399C90F7B3AF53579F5 /* KVNProgressConfiguration.h in Headers */,
+				CE81C87BE66A0443B20EDA83A66BB3D4 /* UIColor+KVNContrast.h in Headers */,
+				116D3767A78FC0657E88B4CEDA4C3299 /* UIImage+KVNEmpty.h in Headers */,
+				B7AFD9C143865892B89249A5C69CD5B3 /* UIImage+KVNImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD1E96FEF8421D4E378648F6CFAD10B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198B1FDE0BD891482C56FB16F612EBAC /* Pods-TheCarsChallenge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0186EE20AB4D310515B8041966DB7AEB /* KVNProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF0DD996BED0F4F1E6537D660B86E1D /* Build configuration list for PBXNativeTarget "KVNProgress" */;
+			buildPhases = (
+				577C1C5E2253B419B3D508C9A34E4663 /* Sources */,
+				DA0D097C530FB413E08EAE35FB17EB7A /* Frameworks */,
+				4828028C649B1D9F79426CC4AADF777D /* Headers */,
+				FA3F98E8768602505269ACF333B7826A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVNProgress;
+			productName = KVNProgress;
+			productReference = 456B925AD3FD363CC43290D6C5CC3E4B /* KVNProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D7873B97591ECD2403199A2F1CF38BC /* Pods-TheCarsChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F2F92AB4AB1C555F2597973486BDD /* Build configuration list for PBXNativeTarget "Pods-TheCarsChallenge" */;
+			buildPhases = (
+				388E846F162F03280FF32EAF39EFE008 /* Sources */,
+				0DD135852F937D8ABDCC8EBFB524843C /* Frameworks */,
+				ADD1E96FEF8421D4E378648F6CFAD10B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341C267D23DDA297C847B87C52C456DB /* PBXTargetDependency */,
+			);
+			name = "Pods-TheCarsChallenge";
+			productName = "Pods-TheCarsChallenge";
+			productReference = DEE16ED02157CA276A0F6A1F20FBA673 /* Pods_TheCarsChallenge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E4DC53654447456C6C44FEA1296F5EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0186EE20AB4D310515B8041966DB7AEB /* KVNProgress */,
+				4D7873B97591ECD2403199A2F1CF38BC /* Pods-TheCarsChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3F98E8768602505269ACF333B7826A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADFF878CB7140130210C8DB8197E291 /* KVNProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388E846F162F03280FF32EAF39EFE008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF36C2C6949A6D0866ACC4680922BA0 /* Pods-TheCarsChallenge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577C1C5E2253B419B3D508C9A34E4663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF2B055A55B65795E721D4A77BB8D01 /* KVNProgress-dummy.m in Sources */,
+				D4E977BCE4ED1AF24E7E122FC462E42B /* KVNProgress.m in Sources */,
+				0EE9D85E3C609CF07EE82AD2AAC58BAD /* KVNProgressConfiguration.m in Sources */,
+				B0A973C6184C25929F3C56F78BC651E4 /* UIColor+KVNContrast.m in Sources */,
+				706DD00E534236F25B5E1368B594BCC3 /* UIImage+KVNEmpty.m in Sources */,
+				B477BDCD9B1D06725C07B4448903D7F3 /* UIImage+KVNImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341C267D23DDA297C847B87C52C456DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVNProgress;
+			target = 0186EE20AB4D310515B8041966DB7AEB /* KVNProgress */;
+			targetProxy = FD80F97EA2F369E03503402C699F5321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9A5D637D5EBB4E5FB65D8F27D7FA02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B9C1E6DFD5D132B076FC6203D9F2E3B /* Pods-TheCarsChallenge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheCarsChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheCarsChallenge/Pods-TheCarsChallenge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheCarsChallenge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B57F4B5EBB8A8C6F516D91206ECFF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE596A2E9883C4312F0433D1348F3DE /* Pods-TheCarsChallenge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TheCarsChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TheCarsChallenge/Pods-TheCarsChallenge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TheCarsChallenge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D1C193D63D2928D38DFA6D65E8FAFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B852272757DC4EF238AB60E0115753F0 /* KVNProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVNProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EAECFD90F25DB84284B5342F5B7B1AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B852272757DC4EF238AB60E0115753F0 /* KVNProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVNProgress/KVNProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVNProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVNProgress/KVNProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVNProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F2F92AB4AB1C555F2597973486BDD /* Build configuration list for PBXNativeTarget "Pods-TheCarsChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B57F4B5EBB8A8C6F516D91206ECFF69 /* Debug */,
+				5E9A5D637D5EBB4E5FB65D8F27D7FA02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9439C22469D35336242DD983DB5C5F /* Debug */,
+				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF0DD996BED0F4F1E6537D660B86E1D /* Build configuration list for PBXNativeTarget "KVNProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1C193D63D2928D38DFA6D65E8FAFAF /* Debug */,
+				EAECFD90F25DB84284B5342F5B7B1AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

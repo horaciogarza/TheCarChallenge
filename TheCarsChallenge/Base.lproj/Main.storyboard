@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TheCarsChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-login" translatesAutoresizingMaskIntoConstraints="NO" id="3fW-sJ-jv2">
+                                <color key="backgroundColor" red="0.22372689840000001" green="0.75713866949999997" blue="0.56032681470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="4zg-zx-FIY">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5q-BK-eay" customClass="customButton" customModule="TheCarsChallenge" customModuleProvider="target">
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="p8S-rf-kfB"/>
+                                            <constraint firstAttribute="height" constant="60" id="rag-Ij-EsE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="SIGN IN">
+                                            <color key="titleColor" red="0.22372689840000001" green="0.75713866949999997" blue="0.56032681470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="31"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loB-c0-gEW" customClass="customButton" customModule="TheCarsChallenge" customModuleProvider="target">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="SIGN UP">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="31"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="loB-c0-gEW" firstAttribute="height" secondItem="n5q-BK-eay" secondAttribute="height" id="ugH-yi-Bs8"/>
+                                    <constraint firstItem="loB-c0-gEW" firstAttribute="width" secondItem="n5q-BK-eay" secondAttribute="width" id="y6k-Qh-vZj"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car-logo" translatesAutoresizingMaskIntoConstraints="NO" id="dBJ-cT-A9c">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dBJ-cT-A9c" secondAttribute="height" multiplier="9:8" id="YnU-wc-vXl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The best car advices" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXv-uB-Tz2">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The car reviews in your pocket, look and score the cars" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqk-dP-lth">
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.22372689840000001" green="0.75713866949999997" blue="0.56032681470000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jXv-uB-Tz2" firstAttribute="top" secondItem="dBJ-cT-A9c" secondAttribute="bottom" constant="105" id="2bw-7q-mre"/>
+                            <constraint firstItem="3fW-sJ-jv2" firstAttribute="leading" secondItem="dBJ-cT-A9c" secondAttribute="trailing" constant="-277" id="DIe-LO-et1"/>
+                            <constraint firstItem="3fW-sJ-jv2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dpu-Is-3dK"/>
+                            <constraint firstItem="rqk-dP-lth" firstAttribute="top" secondItem="jXv-uB-Tz2" secondAttribute="bottom" constant="8.5" id="FOd-q9-6qO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3fW-sJ-jv2" secondAttribute="bottom" id="KY7-VD-Qdf"/>
+                            <constraint firstAttribute="trailing" secondItem="3fW-sJ-jv2" secondAttribute="trailing" id="MYW-d9-sCR"/>
+                            <constraint firstItem="4zg-zx-FIY" firstAttribute="top" secondItem="3fW-sJ-jv2" secondAttribute="bottom" constant="-80" id="UEB-8Q-tC0"/>
+                            <constraint firstItem="3fW-sJ-jv2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aGH-G2-ZG1"/>
+                            <constraint firstItem="dBJ-cT-A9c" firstAttribute="centerX" secondItem="3fW-sJ-jv2" secondAttribute="centerX" id="aQl-Le-O9j"/>
+                            <constraint firstItem="3fW-sJ-jv2" firstAttribute="top" secondItem="dBJ-cT-A9c" secondAttribute="bottom" constant="-280" id="eLL-bM-7db"/>
+                            <constraint firstItem="4zg-zx-FIY" firstAttribute="centerX" secondItem="3fW-sJ-jv2" secondAttribute="centerX" id="tmu-f0-UrD"/>
+                            <constraint firstItem="rqk-dP-lth" firstAttribute="centerX" secondItem="jXv-uB-Tz2" secondAttribute="centerX" id="vSi-yS-104"/>
+                            <constraint firstItem="jXv-uB-Tz2" firstAttribute="centerX" secondItem="dBJ-cT-A9c" secondAttribute="centerX" id="wTW-ga-2Uc"/>
+                            <constraint firstItem="rqk-dP-lth" firstAttribute="leading" secondItem="3fW-sJ-jv2" secondAttribute="trailing" constant="-340" id="wt7-rQ-7LL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="130.88455772113943"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background-login" width="600" height="400"/>
+        <image name="car-logo" width="256" height="256"/>
+    </resources>
+</document>
